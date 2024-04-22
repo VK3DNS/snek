@@ -10,7 +10,7 @@ deathsoundlen = mp3.MP3("pacman.mp3")
 deathsoundlength = deathsoundlen.info.length
 pygame.init()
 deathSound = pygame.mixer.Sound("pacman.mp3")
-deathSound.set_volume(0.05)
+deathSound.set_volume(0.1)
 hitmarkerSound = pygame.mixer.Sound("hitmarker.mp3")
 hitmarkerSound.set_volume(0.1)
 
